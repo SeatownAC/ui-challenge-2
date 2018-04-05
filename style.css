@@ -1,7 +1,193 @@
-* {
+* 
+
+{
     box-sizing: border-box;
 }
 
+
 body {
+    
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+.header {
+    background-color:grey;
+    padding:40px;
+    text-align: center;
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 75px;
+    
+}
+
+.area.b {
+    background-color:black;
+    text-align: center;
+    padding: 40px;
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 150px;
+}
+
+.area.c {
+    background-color:white;
+    text-align: center;
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 110px;
+}
+
+.area.d {
+    background-color:purple;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100px;
+}
+
+.area.e {
+    background-color:darkgray;
+    text-align: center;
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 250px;
+}
+
+.area.f {
+    background-color:black;
+    padding:20%;
+    text-align: center;
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 250px;
+}
+
+.area.g {
+    background-color:white;
+    padding:20%;
+    text-align: center;
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 250px;
+}
+
+.area.h {
+    background-color:darkgray;
+    padding:20%;
+    text-align: center;
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 250px;
+}
+
+.area.i {
+    background-color:grey;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 80px;
+}
+
+
+@media only screen and (min-width:768px){
+.header {
+        background-color:grey;
+        padding:50px;
+        text-align: center;
+        position: relative;
+        width: 100%;
+        height: 100px;
+        
+}
+
+.area.b {
+        background-color:black;
+        text-align: center;
+        padding: 300px 0;
+        position: relative;
+        float: left;
+        width: 20%;
+        height: 550px;
+}
+
+.area.c {
+        background-color:white;
+        text-align: center;
+        padding: 100px;
+        position: relative;
+        float: left;
+        width: 40%;
+        height: 200px;
+}
+
+.area.d {
+        background-color:purple;
+        padding: 100px;
+        text-align: center;
+        position: relative;
+        float: left;
+        width: 40%;
+        height: 250px;
+}
+    
+.area.e {
+        background-color:darkgray;
+        padding:8%;
+        text-align: center;
+        position: relative;
+        float: left;
+        width: 20%;
+        height: 250px;
+}
+   
+.area.f {
+        background-color:black;
+        padding:10%;
+        text-align: center;
+        position: relative;
+        float: left;
+        width: 20%;
+        height: 250px;
+}
+    
+.area.g {
+        background-color:white;
+        padding:10%;
+        text-align: center;
+        float: left;
+        width: 20%;
+        height: 250px;
+}
+    
+.area.h {
+        background-color:darkgrey;
+        padding: 10%;
+        text-align: center;
+        float: left;
+        width: 30%;
+        height: 220px;
+}
+   
+.area.i {
+        background-color:grey;
+        padding: 75px;
+        text-align: center;
+        float: left;
+        height: 130px;
+    }
 }
